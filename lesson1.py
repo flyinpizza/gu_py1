@@ -34,20 +34,20 @@
 #         b = x
 # print(b)
 
-#5
-revenue = float(input("Input the revenue: "))
-cost = float(input("Input the costs: "))
-profit = revenue - cost
-profitabilty = profit / revenue
-if profit > 0:
-    print("You are operating at a profit")
-    staff = int(input("What's the number of employees: "))
-    profit_per_emp = profit / staff
-    print(f"Profitability is {profitabilty:.2}. Profit per employee is {profit_per_emp:.2}")
-elif profit < 0:
-    print("You are operating at a loss")
-else:
-    print("You are operating at zero profit")
+# #5
+# revenue = float(input("Input the revenue: "))
+# cost = float(input("Input the costs: "))
+# profit = revenue - cost
+# profitabilty = profit / revenue
+# if profit > 0:
+#     print("You are operating at a profit")
+#     staff = int(input("What's the number of employees: "))
+#     profit_per_emp = profit / staff
+#     print(f"Profitability is {profitabilty:.2}. Profit per employee is {profit_per_emp:.2}")
+# elif profit < 0:
+#     print("You are operating at a loss")
+# else:
+#     print("You are operating at zero profit")
 
 
 # #6
