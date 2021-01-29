@@ -66,7 +66,7 @@
 # import functools
 # def func(n):
 #     if n == 0:
-#         factorial = 0
+#         factorial = 1
 #     else:
 #         n_list = [el for el in range(1, n+1)]
 #         factorial = functools.reduce(lambda a,b: a*b, n_list)
